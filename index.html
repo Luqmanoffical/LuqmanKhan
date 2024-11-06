@@ -41,8 +41,8 @@
       }
       .hero-text{
   padding-top: 40px;    }
-      .image-container {
-        display: flex;
+  .image-container {
+  display: flex;
   justify-content: center; /* Horizontally center the image */
   align-items: center;
   margin: 0 150px;
@@ -52,8 +52,21 @@
   height: 22rem; /* Set the size of the container */
   border-radius: 50%; /* Circular border */
   overflow: hidden; /* Ensures the image is clipped to the circular shape */
-  box-shadow: 0 0 70px rgba(21, 149, 182, 0.7); /* Blur effect around the circular border */
   background: linear-gradient(to right, #1595b6, #1f2667e6); /* Optional: Set a background color for the container */
+  animation: shadowAnimation 2s infinite alternate; /* Add the animation */
+}
+
+/* Keyframes for the shadow animation */
+@keyframes shadowAnimation {
+  0% {
+    box-shadow: 0 0 70px rgba(21, 149, 182, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 90px rgba(21, 149, 182, 1), 0 0 10px rgba(21, 149, 182, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 70px rgba(21, 149, 182, 0.7);
+  }
 }
 
 .styled-image {
