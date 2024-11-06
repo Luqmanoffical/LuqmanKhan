@@ -150,7 +150,10 @@ html {
     100px 1500px 3px #FFF, 
     1700px 1100px 3px #FFF;
 }
-
+.logo{
+  height: 60px;
+  width: 60px;
+}
 #title {
   position: absolute;
   /* top: 20%; */
