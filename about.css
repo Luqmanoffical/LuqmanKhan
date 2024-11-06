@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+
+  overflow: hidden;
+}
+
+#stars {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 
+    150px 150px 1px #FFF, 
+    980px 500px 1px #FFF, 
+    1820px 1680px 1px #FFF, 
+    1230px 980px 1px #FFF, 
+    400px 1000px 1px #FFF, 
+    500px 200px 1px #FFF, 
+    1000px 1200px 1px #FFF, 
+    1500px 800px 1px #FFF, 
+    300px 300px 1px #FFF, 
+    750px 600px 1px #FFF, 
+    1600px 1300px 1px #FFF, 
+    200px 500px 1px #FFF, 
+    1800px 500px 1px #FFF, 
+    700px 1400px 1px #FFF, 
+    950px 1400px 1px #FFF;
+  animation: animStar 50s linear infinite;
+}
+
+#stars:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 
+    150px 150px 1px #FFF, 
+    980px 500px 1px #FFF, 
+    1820px 1680px 1px #FFF, 
+    1230px 980px 1px #FFF, 
+    400px 1000px 1px #FFF, 
+    500px 200px 1px #FFF, 
+    1000px 1200px 1px #FFF, 
+    1500px 800px 1px #FFF, 
+    300px 300px 1px #FFF, 
+    750px 600px 1px #FFF, 
+    1600px 1300px 1px #FFF, 
+    200px 500px 1px #FFF, 
+    1800px 500px 1px #FFF, 
+    700px 1400px 1px #FFF, 
+    950px 1400px 1px #FFF;
+}
+
+#stars2 {
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 
+    350px 250px 2px #FFF, 
+    1100px 800px 2px #FFF, 
+    250px 1000px 2px #FFF, 
+    1800px 1200px 2px #FFF, 
+    600px 1300px 2px #FFF, 
+    900px 500px 2px #FFF, 
+    1600px 1100px 2px #FFF, 
+    750px 400px 2px #FFF, 
+    1200px 1300px 2px #FFF, 
+    1350px 600px 2px #FFF, 
+    250px 1500px 2px #FFF, 
+    950px 200px 2px #FFF, 
+    1100px 1700px 2px #FFF, 
+    200px 100px 2px #FFF, 
+    1750px 700px 2px #FFF;
+  animation: animStar 100s linear infinite;
+}
+
+#stars2:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 
+    350px 250px 2px #FFF, 
+    1100px 800px 2px #FFF, 
+    250px 1000px 2px #FFF, 
+    1800px 1200px 2px #FFF, 
+    600px 1300px 2px #FFF, 
+    900px 500px 2px #FFF, 
+    1600px 1100px 2px #FFF, 
+    750px 400px 2px #FFF, 
+    1200px 1300px 2px #FFF, 
+    1350px 600px 2px #FFF, 
+    250px 1500px 2px #FFF, 
+    950px 200px 2px #FFF, 
+    1100px 1700px 2px #FFF, 
+    200px 100px 2px #FFF, 
+    1750px 700px 2px #FFF;
+}
+
+#stars3 {
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: 
+    500px 350px 3px #FFF, 
+    1000px 500px 3px #FFF, 
+    1500px 1000px 3px #FFF, 
+    2000px 1200px 3px #FFF, 
+    1200px 1500px 3px #FFF, 
+    600px 400px 3px #FFF, 
+    800px 1200px 3px #FFF, 
+    900px 1000px 3px #FFF, 
+    1400px 1700px 3px #FFF, 
+    1700px 200px 3px #FFF, 
+    1600px 1000px 3px #FFF, 
+    2000px 1400px 3px #FFF, 
+    1800px 800px 3px #FFF, 
+    100px 1500px 3px #FFF, 
+    1700px 1100px 3px #FFF;
+  animation: animStar 150s linear infinite;
+}
+
+#stars3:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: 
+    500px 350px 3px #FFF, 
+    1000px 500px 3px #FFF, 
+    1500px 1000px 3px #FFF, 
+    2000px 1200px 3px #FFF, 
+    1200px 1500px 3px #FFF, 
+    600px 400px 3px #FFF, 
+    800px 1200px 3px #FFF, 
+    900px 1000px 3px #FFF, 
+    1400px 1700px 3px #FFF, 
+    1700px 200px 3px #FFF, 
+    1600px 1000px 3px #FFF, 
+    2000px 1400px 3px #FFF, 
+    1800px 800px 3px #FFF, 
+    100px 1500px 3px #FFF, 
+    1700px 1100px 3px #FFF;
+}
+
+#title {
+  position: absolute;
+  /* top: 20%; */
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+ }
+ #title h2
+ {
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: 0px;
+  padding-left: 10px;
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+ #title p
+{
+  font-weight: 100;
+  font-size: 1.25rem;
+  text-align: start;
+  padding: 0 190px;
+  
+}
+#title button {
+  margin-top: 30px;
+}
+
+
+#title span {
+  
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
