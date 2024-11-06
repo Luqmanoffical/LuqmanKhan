@@ -187,15 +187,51 @@ html {
 }
 
 
-#title span {
-  
-}
-
 @keyframes animStar {
   from {
     transform: translateY(0px);
   }
   to {
     transform: translateY(-2000px);
+  }
+}
+@media (max-width: 768px) {
+  .logo{
+    height: 40px;
+    width: 40px;
+  }
+  #title h2 {
+    font-size: 20px; /* Slightly smaller font size for tablets */
+    letter-spacing: 8px; /* Reduced letter-spacing for better fit */
+  }
+
+  #title p {
+    font-size: 1rem; /* Slightly smaller text for readability */
+    padding: 0 50px; /* Less padding on smaller screens */
+  }
+
+  #title button {
+    margin-top: 20px; /* Adjust button margin for tablets */
+  }
+}
+
+/* Responsive Styles for Mobile Screens (screen width up to 480px) */
+@media (max-width: 480px) {
+  .logo{
+    height: 30px;
+    width: 30px;
+  }
+  #title h2 {
+    font-size: 13px; /* Smaller font size for mobile */
+    letter-spacing: 5px; /* Reduced letter-spacing */
+  }
+
+  #title p {
+    font-size: 11px; /* Smaller font size for mobile */
+    padding: 0 20px; /* Reduced padding on mobile screens */
+  }
+
+  #title button {
+    margin-top: 15px; /* Adjust button margin for mobile */
   }
 }
