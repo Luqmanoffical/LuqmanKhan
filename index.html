@@ -35,6 +35,9 @@
       .swiper-button-prev {
         color: #1788ae;
       }
+      .main-hero{
+        flex-direction: row;
+      }
 
       .swiper-pagination-bullet {
         background-color: #23b9eb;
@@ -88,6 +91,44 @@
   background-clip: content-box; /* Ensure the gradient border is outside the image */
 }
 
+.ul{
+  margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+  .ul{
+    display: none;
+  }
+  
+      .image-container {
+  
+  margin:  10px;
+  width: 16rem; /* Set the size of the container */
+  height: 16rem; /* Set the size of the container */
+}
+    }
+
+/* Responsive Styles for Mobile Screens (screen width up to 480px) */
+@media (max-width: 480px) {
+  .ul{
+    display: none;
+  }
+  .main-head{
+    font-size: 1.75rem;
+  }
+  .para{
+    font-size: 12px;
+  }
+  .main-hero{
+        flex-direction: column-reverse;
+     min-height: fit-content !important;
+      }
+      .image-container {
+display: none;}
+
+
+
+}
     </style>
     <script src="./matter.js" defer></script>
   </head>
@@ -196,7 +237,7 @@
       </header>
       <div class="absolute inset-0 hidden md:block" id="wrapper-canvas"></div>
       <div class="flex -mt-10 relative">
-        <div class="w-full px-4 max-w-screen-xl mx-auto">
+        <div class="w-full main-one px-4 max-w-screen-xl mx-auto">
           <!-- <svg
             viewBox="0 0 406 368"
             fill="none"
@@ -230,15 +271,15 @@
           </svg> -->
           <div class="relative ml-4 md:ml-12">
         
-        <div class="flex justify-between items-center">
+        <div class="flex justify-between  main-hero items-center">
 <div class="hero-text">
 
   <h1
-  class="pointer-events-none text-4xl lg:text-[64px] font-['Spartan'] mr-12"
+  class="pointer-events-none text-4xl main-head lg:text-[64px] font-['Spartan'] mr-12"
 >
 Luqman Khan            </h1>
 <p
-  class="pointer-events-none font-['Merriweather'] italic my-4 md:my-8"
+  class="pointer-events-none para font-['Merriweather'] italic my-4 md:my-8"
 >
 Hi, I’m a skilled React.js Developer specializing in building modern, user-friendly web applications with fullstack expertise in React.js, Node.js, Express, and MongoDB. Proficient in HTML5, CSS (Bootstrap, Tailwind),
 and JavaScript, I create responsive, interactive interfaces. Experienced in collaborating on diverse
@@ -262,7 +303,7 @@ projects with teams using Jira and GitHub, I focus on delivering impactful, effi
         </div>
         </div>
 
-        <ul class="ml-auto space-y-6 text-[#b0b2c3] absolute right-8">
+        <ul class="ml-auto   space-y-6  text-[#b0b2c3] ul  absolute right-8 block">
           <li>
             <a
               href="https://www.linkedin.com/in/muhammad-luqman-khan-051047267"
@@ -403,9 +444,10 @@ projects with teams using Jira and GitHub, I focus on delivering impactful, effi
           class="w-4 h-4 rounded-full border-[3px] border-[#459bd5] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
         ></div>
         <a
-          href=""
+          href="https://holomodular.vercel.app/"
           class="flex w-full relative justify-center sm:justify-start"
-        >
+          target="_blank"
+          >
           <div
             class="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200"
           >
@@ -569,9 +611,9 @@ projects with teams using Jira and GitHub, I focus on delivering impactful, effi
           class="w-4 h-4 rounded-full border-[3px] border-[#ffe578] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
         ></div>
         <a
-          href="#"
+          href="https://kahanify.com/"
           class="order-1 sm:order-2 flex w-full relative justify-center sm:justify-start"
-        >
+          target="_blank" >
           <div
             class="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 sm:ml-auto"
           >
@@ -615,8 +657,8 @@ projects with teams using Jira and GitHub, I focus on delivering impactful, effi
           class="w-4 h-4 rounded-full border-[3px] border-[#fc815c] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
         ></div>
         <a
-          href="#"
-          class="flex w-full relative justify-center sm:justify-start"
+          href="https://service-query.vercel.app/"
+          class="flex w-full relative justify-center sm:justify-start" target="_blank"
         >
           <div
             class="flex flex-col items-center relative group hover:scale-105 ease-in-out sm:mr-auto duration-200"
@@ -779,7 +821,7 @@ projects with teams using Jira and GitHub, I focus on delivering impactful, effi
           class="w-4 h-4 rounded-full border-[3px] border-[#47afa1] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
         ></div>
         <a
-          href="#"
+          href="https://service-brick.netlify.app/" target="_blank"
           class="order-1 sm:order-2 flex w-full relative justify-center sm:justify-start"
         >
           <div
