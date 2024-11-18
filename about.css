@@ -222,12 +222,12 @@ html {
     width: 30px;
   }
   #title h2 {
-    font-size: 13px; /* Smaller font size for mobile */
+    font-size: 16px; /* Smaller font size for mobile */
     letter-spacing: 5px; /* Reduced letter-spacing */
   }
 
   #title p {
-    font-size: 11px; /* Smaller font size for mobile */
+    font-size: 14px; /* Smaller font size for mobile */
     padding: 0 20px; /* Reduced padding on mobile screens */
   }
 
